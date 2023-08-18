@@ -1,9 +1,3 @@
-var viewMode=getCookie("view-mode")
-if(viewMode=="desktop"){
-    visualViewport.setAttribute('content','width=1330')
-}else if(viewMode=="mobile"){
-    visualViewport.setAttribute('content','width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no')
-}
 
 
 
